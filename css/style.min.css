@@ -275,9 +275,30 @@ a {
   overflow: hidden;
   min-height: 500px; }
   
+.jumbotron2 {
+  background-color: #fff;
+  background-image: url(https://wp02-media.cdn.ihealthspot.com/wp-content/uploads/sites/201/2020/01/17205208/iStock-1072286960.jpg);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  border-radius: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 0;
+  overflow: hidden;
+  min-height: 100px; }
+
   @media (min-width: 1024px) {
     .jumbotron {
-      min-height: 80vh; } }
+      min-height: 80vh; } 
+
+    .jumbotron2 {
+      min-height: 50vh; } 
+    
+    }
   .jumbotron .container {
     position: relative; }
   .jumbotron:before {
