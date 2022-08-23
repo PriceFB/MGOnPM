@@ -289,13 +289,14 @@ a {
   border-top-right-radius: 5px;
   margin-bottom: 0;
   overflow: hidden;
-  min-height: 100px; }
+  min-height: 350px; }
 
   @media (min-width: 1024px) {
     .jumbotron {
       min-height: 80vh; } 
 
     .jumbotron2 {
+      padding-top: 50px;
       min-height: 50vh; } 
     
     }
