@@ -75,14 +75,14 @@
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-transition: 1s;
-  transition: 1s;
+  
+
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -moz-transition: 1s;
+
   -moz-transform-style: preserve-3d;
-  -o-transition: 1s;
+ 
   -o-transform-style: preserve-3d;
-  -ms-transition: 1s;
+ 
   -ms-transform-style: preserve-3d;
 }
