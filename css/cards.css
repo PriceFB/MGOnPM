@@ -27,6 +27,7 @@
   -ms-transition: 1s;
   -moz-transition: 1s;
   -webkit-perspective: 1000;
+  perspective: 1000;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transition: 1s;
@@ -40,6 +41,7 @@
   position: relative;
   -webkit-transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
   z-index: 2;
   margin-bottom: 30px;
 }
@@ -66,7 +68,9 @@
   -ms-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transition: 1s;
+  transition: 1s;
   -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
   -moz-transition: 1s;
   -moz-transform-style: preserve-3d;
   -o-transition: 1s;
