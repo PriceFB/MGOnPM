@@ -32,6 +32,8 @@
   transition: 1s;
   transform-style: preserve-3d;
   position: relative;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
 }
 
 .frontside {
