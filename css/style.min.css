@@ -225,7 +225,7 @@ a {
   font-size: 40px;
   color: #000; }
 
-  @media (max-width: 410px) {
+  @media (max-width: 500px) {
     .navbar-brand img {
         width: 50%;
         height: 50%;
