@@ -11,6 +11,8 @@
   -ms-transform: rotateY(0deg);
   transform: rotateY(0deg);
   border-radius: .25rem;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
 }
 
 .image-flip:hover .frontside,
@@ -19,6 +21,24 @@
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
+  transform: translate3d(0,180deg,0);
+  -webkit-transform: translate3d(0,180deg,0);
+}
+
+.mainflip {
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
 }
 
 .frontside {
