@@ -92,6 +92,7 @@
   .frontside,
   .backside {
     -webkit-backface-visibility: hidden;
+    transition: none;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
