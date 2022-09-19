@@ -8,7 +8,7 @@
     $message = $_POST['message'];
     $phoneNum = $_POST['phone'];
 
-    $mailTo = "solares.ceo@gmail.com";
+    $mailTo = "info@mgorthoandpain.com";
     $sub = "WEBSITE INQUIRY";
     $txt = "E-Mail: $mailFrom\nName: $name\n Phone Number: $phoneNum \nSubject: $subject\n\nMessage: $message\n";
 
